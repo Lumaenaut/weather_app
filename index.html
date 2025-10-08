@@ -1,11 +1,54 @@
-<!DOCTYPE html> <!--Document type declaration-->
-<html lang="en"> <!--html (el): Represents the root of an HTML document. lang (att): language of an element-->
-<head> <!--head (el): contains metadata about the document-->
-    <meta charset="UTF-8"> <!--meta (el): meta that can't be represented by other meta-related elements. charset (att): domument's character encoding-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--name and content (att): provide document metadata in terms of name-value-->
-    <title>Document</title> <!--title (att): title shown in a browser's page's tab-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
 </head>
-<body> <!--body (el): the context of an HTML document-->
-    
+<body>
+    <header>
+        <h1>Weather</h1>
+    </header>
+    <main>
+        <!--Search-->
+        <section>
+            <h2>Search</h2>
+            <form>
+                <label>
+                    City
+                    <input placeholder="e.g., Toronto" />
+                </label>
+                <button>Search</button>
+                <button>Use my location</button>
+            </form>
+        </section>
+
+        <!--Results-->
+        <section>
+            <h2>Current weather</h2>
+            <p><strong>Location:</strong>_</p>
+            <p><strong>Date:</strong>_</p>
+            <p><strong>Temperature:</strong>_ C</p>
+            <p><strong>Condition:</strong>_</p>
+            <p><strong>High / Low:</strong>- / -</p>
+        </section>
+
+        <!--Status / errors-->
+        <p>Error space</p>
+    </main>
+
+    <footer>
+        <small>HTML-only scaffold - functionality comes next.</small>
+    </footer>
 </body>
 </html>
+
+<!--DOCTYPE: Document type declaration-->
+<!--html (el): Represents the root of an HTML document. lang (att): language of an element-->
+<!--head (el): contains metadata that helps browsers and search engines understand the content of the page-->
+<!--meta (el): meta that can't be represented by other meta-related elements. charset (att): domument's character encoding-->
+<!--name and content (att): provide document metadata in terms of name-value-->
+<!--title (att): title shown in a browser's page's tab-->
+<!--body (el): the context or main body of an HTML document, everything that will be rendered-->
+<!--header (el): define the introductory or navigational content of a webpage or section. In this case, the title-->
+<!--main (el): represents the domintant content in the "body" of a document-->
